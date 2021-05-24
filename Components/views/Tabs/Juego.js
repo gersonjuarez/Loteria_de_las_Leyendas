@@ -98,22 +98,18 @@
                                       
                                         {posicion:require('./assets/sticker/fuego.json')},
                                         {posicion:require('./assets/sticker/gato_galleta.json')},                              
-                                        {posicion:require('./assets/sticker/hamster.json')},      
-                                        {posicion:require('./assets/sticker/hamster2.json')},                                                                     
+                                        {posicion:require('./assets/sticker/hamster.json')},                                                                                                        
                                         {posicion:require('./assets/sticker/mono.json')},
                                         {posicion:require('./assets/sticker/mono2.json')},   
-                                        {posicion:require('./assets/sticker/mono3.json')},                                                                    
-                                        {posicion:require('./assets/sticker/sticker1.json')},                                                                    
-                                        {posicion:require('./assets/sticker/sticker2.json')},                                                                    
-                                        {posicion:require('./assets/sticker/sticker3.json')},                                                                    
-                                        {posicion:require('./assets/sticker/sticker4.json')},                                                                    
-                                        {posicion:require('./assets/sticker/sticker5.json')},                                                                    
-                                        {posicion:require('./assets/sticker/sticker6.json')},    
+                                        {posicion:require('./assets/sticker/mono3.json')},                                                                                                                                                                         
+                                        {posicion:require('./assets/sticker/sticker5.json')},                                                                                                           
+                                        {posicion:require('./assets/sticker/sticker6.json')},  
+                                        {posicion:require('./assets/sticker/chica.json')},    
+                                        {posicion:require('./assets/sticker/chica2.json')},      
                                         {posicion:require('./assets/sticker/sticker7.json')},                                                                    
                                         {posicion:require('./assets/sticker/yoda.json')},
                                         {posicion:require('./assets/sticker/yoda2.json')},                              
                                         {posicion:require('./assets/sticker/tiburon.json')},
-                                        {posicion:require('./assets/sticker/tiburon2.json')},                                   
                                  
 
                                       ]);
@@ -1317,6 +1313,8 @@
                     onPress={()=>setOpenSticker(!openSticker)}
                    
                     ><Text style={{fontSize:RFValue(35)}}>🐶</Text></TouchableOpacity>
+
+
                                                           <TouchableWithoutFeedback  
                                     disabled={bloquear}
                                      onPressIn={()=>presionarBotonLoteria()}

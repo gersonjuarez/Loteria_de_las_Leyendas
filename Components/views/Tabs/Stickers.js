@@ -73,19 +73,11 @@
                                             
     
 
+             
+
+
                                                 <TouchableOpacity
                                                 onPress={()=>Enviar(3)}
-                                            
-                                                >
-                                            <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/hamster2.png')}  >
-                                            <Text style={{fontSize:RFValue(30),opacity:0.01}} >😀</Text>
-                                                </ImageBackground>
-
-                                                </TouchableOpacity>
-
-
-                                                <TouchableOpacity
-                                                onPress={()=>Enviar(4)}
                                                
                                                 >
                                         <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/mono.png')}  >
@@ -95,7 +87,7 @@
 
 
                                                 <TouchableOpacity
-                                                onPress={()=>Enviar(5)}
+                                                onPress={()=>Enviar(4)}
                                            
                                                 >
                                         <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/mono2.png')}  >
@@ -105,7 +97,7 @@
 
                                                 
                                                 <TouchableOpacity
-                                                onPress={()=>Enviar(6)}
+                                                onPress={()=>Enviar(5)}
                                     
                                                 >
  <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/mono3.png')}  >
@@ -114,48 +106,11 @@
                                                 </TouchableOpacity> 
                                             
 
-                                                <TouchableOpacity
-                                                onPress={()=>Enviar(7)}
-                                               
-                                                >
- <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/sticker1.png')}  >
-                                            <Text style={{fontSize:RFValue(30),opacity:0.01}} >😀</Text>
-                                                </ImageBackground>
-                                                </TouchableOpacity>
+                                              
 
 
                                                 <TouchableOpacity
-                                                onPress={()=>Enviar(8)}
-                                               
-                                                >
- <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/sticker2.png')}  >
-                                            <Text style={{fontSize:RFValue(30),opacity:0.01}} >😀</Text>
-                                                </ImageBackground>
-                                                </TouchableOpacity>
-
-
-                                                <TouchableOpacity
-                                                onPress={()=>Enviar(9)}
-                                               
-                                                >
- <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/sticker3.png')}  >
-                                            <Text style={{fontSize:RFValue(30),opacity:0.01}} >😀</Text>
-                                                </ImageBackground>
-                                                </TouchableOpacity>
-
-
-                                                <TouchableOpacity
-                                                onPress={()=>Enviar(10)}
-                                               
-                                                >
- <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/sticker4.png')}  >
-                                            <Text style={{fontSize:RFValue(30),opacity:0.01}} >😀</Text>
-                                                </ImageBackground>
-                                                </TouchableOpacity>
-
-
-                                                <TouchableOpacity
-                                                onPress={()=>Enviar(11)}
+                                                onPress={()=>Enviar(6)}
                                                
                                                 >
  <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/sticker5.png')}  >
@@ -165,7 +120,7 @@
 
 
                                                 <TouchableOpacity
-                                                onPress={()=>Enviar(12)}
+                                                onPress={()=>Enviar(7)}
                                                
                                                 >
  <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/sticker6.png')}  >
@@ -173,11 +128,29 @@
                                                 </ImageBackground>
                                                 </TouchableOpacity>
 
+                                                <TouchableOpacity
+                                                onPress={()=>Enviar(8)}
+                                               
+                                                >
+ <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/chica.png')}  >
+                                            <Text style={{fontSize:RFValue(30),opacity:0.01}} >😀</Text>
+                                                </ImageBackground>
+                                                </TouchableOpacity>
+
+
+                                                <TouchableOpacity
+                                                onPress={()=>Enviar(9)}
+                                               
+                                                >
+ <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/chica2.png')}  >
+                                            <Text style={{fontSize:RFValue(30),opacity:0.01}} >😀</Text>
+                                                </ImageBackground>
+                                                </TouchableOpacity>
                                          
 
 
                                                 <TouchableOpacity
-                                                onPress={()=>Enviar(13)}
+                                                onPress={()=>Enviar(10)}
                                                
                                                 >
  <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/sticker7.png')}  >
@@ -187,7 +160,7 @@
 
 
                                                 <TouchableOpacity
-                                                onPress={()=>Enviar(14)}
+                                                onPress={()=>Enviar(11)}
                                                
                                                 >
  <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/yoda.png')}  >
@@ -196,7 +169,7 @@
                                                 </TouchableOpacity>
 
                                                 <TouchableOpacity
-                                                onPress={()=>Enviar(15)}
+                                                onPress={()=>Enviar(12)}
                                                
                                                 >
  <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/yoda2.png')}  >
@@ -207,7 +180,7 @@
                 
 
                                                 <TouchableOpacity
-                                                onPress={()=>Enviar(16)}
+                                                onPress={()=>Enviar(13)}
                                                
                                                 >
  <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/tiburon.png')}  >
@@ -216,14 +189,7 @@
                                                 </TouchableOpacity>
 
 
-                                                <TouchableOpacity
-                                                onPress={()=>Enviar(17)}
-                                               
-                                                >
- <ImageBackground style={{width:'100%',height:'100%',marginHorizontal:5}} resizeMode='contain' source={require('../Tabs/assets/sticker/imagenes/tiburon2.png')}  >
-                                            <Text style={{fontSize:RFValue(30),opacity:0.01}} >😀</Text>
-                                                </ImageBackground>
-                                                </TouchableOpacity>
+                                          
 
                                           
                                                
